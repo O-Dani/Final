@@ -16,23 +16,23 @@
 <body>
 
 </body>
-<div class="Landing">
+<div class="landing">
     <h1>
-        Change your career,
+        Change your career,<br />
         Change your life
     </h1>
     <p>Get ahead with expert-led training in coding & design</p>
     <div class="button-group">
-        <button type="button">
+        <button type="button" class="apply">
             Apply now
         </button>
-        <button type="button">
+        <button type="button" class="learn">
             Learn more
         </button>
     </div>
 </div>
 
-<div class="Testimonials">
+<div class="testimonials">
     <h1 class="title">
         Master the Fundamentals while Exploring new Tech
     </h1>
@@ -61,12 +61,17 @@
         </p>
     </div>
     <div class="images">
-        <!-- img -->
+        <img src="./assets/img-fulltime-campus.png" alt="Fulltime campus" id="img1">
+        <label for="img1">Full-Time On Campus</label>
+        <img src="./assets/img-fulltime-remote.png" alt="Fulltime campus" id="img2">
+        <label for="img2">Full-Time Remote</label>
+        <img src="./assets/img-parttime-flex.png" alt="Fulltime campus" id="img3">
+        <label for="img3">Part-Time Flex</label>
     </div>
 </div>
 
 <div class="curriculum">
-    <div class="header">
+    <div class="header-curriculum">
         <strong>Curriculum</strong>
         <h2>
             Dive into the web development
@@ -76,7 +81,8 @@
         </p>
     </div>
     <div class="detail">
-        <p>
+        <button type="button" class="apply">Apply now</button>
+        <p class="para-1">
             <strong>Real-World Projects.</strong> Solve challenges that professional engineers face as you work
             individually and in teams
             with designers.
@@ -94,16 +100,18 @@
     <p>
         Subscribe to our email newsletter to stay up to date on the latest updates
     </p>
-    <textarea name="email" cols="30" rows="2"></textarea>
+    <textarea name="email" cols="30" rows="2" placeholder=" Enter yout email"></textarea>
+    <button type="button">Get started</button>
     <span>
-        Cancel any time. Check out Terms of Use.
+        Cancel any time. Check out
+        <a href="#">Terms of Use.</a>
     </span>
 </div>
 
-<footer>
-    <link rel="stylesheet" href="#">
-    <link rel="stylesheet" href="#">
-    <link rel="stylesheet" href="#">
-</footer>
+<div class="footer">
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">License</a>
+</div>
 
 </html>
